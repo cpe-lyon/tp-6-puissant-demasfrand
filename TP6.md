@@ -172,3 +172,8 @@ sudo modprobe -r hello
 On peutr encore visualiser le journal des logs et voir que la fonction cleanup à été appelée.
 
 8. Nous allons maintenant faire en sorte que le module soit chargé automatiquemennt quand le sytème démarre.
+
+Nous ajoutons une ligne dans le fichier /etc/modules
+```
+hello 
+```
